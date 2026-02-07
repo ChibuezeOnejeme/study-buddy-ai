@@ -1,0 +1,316 @@
+ {
+   "nav": {
+     "signIn": "Iniciar Sesión",
+     "getStarted": "Comenzar",
+     "signOut": "Cerrar Sesión",
+     "menu": "Menú",
+     "more": "Más"
+   },
+   "sidebar": {
+     "dashboard": "Panel",
+     "upload": "Subir",
+     "topics": "Temas",
+     "practice": "Practicar",
+     "planner": "Planificador",
+     "achievements": "Logros",
+     "rewards": "Recompensas",
+     "settings": "Configuración",
+     "uploadToUnlock": "Sube para desbloquear"
+   },
+   "auth": {
+     "welcomeBack": "Bienvenido de nuevo",
+     "signInContinue": "Inicia sesión para continuar tu viaje de estudio",
+     "email": "Correo electrónico",
+     "password": "Contraseña",
+     "fullName": "Nombre Completo",
+     "createAccount": "Crea tu cuenta",
+     "startJourney": "Comienza tu camino hacia el éxito",
+     "create": "Crear Cuenta",
+     "noAccount": "¿No tienes una cuenta?",
+     "haveAccount": "¿Ya tienes una cuenta?",
+     "signUp": "Regístrate",
+     "passwordMinLength": "Mínimo 6 caracteres",
+     "joinLearners": "Únete a miles de estudiantes",
+     "uploadMaterials": "Sube tus materiales y deja que la IA cree flashcards, preguntas y planes de estudio personalizados.",
+     "readyToAce": "¿Listo para alcanzar tus metas?",
+     "personalizedAssistant": "Tu asistente de estudio personalizado te espera. Hagamos que el aprendizaje sea eficiente y agradable.",
+     "welcomeToast": "¡Bienvenido de nuevo!",
+     "checkEmail": "¡Revisa tu correo para confirmar tu cuenta!"
+   },
+   "dashboard": {
+     "welcomeBack": "Bienvenido de nuevo",
+     "examPrep": "Preparación para examen",
+     "interviewPrep": "Preparación para entrevista",
+     "daysRemaining": "días restantes",
+     "continueStudy": "Continúa tu sesión de estudio",
+     "startNow": "Comenzar ahora",
+     "readiness": "Preparación",
+     "flashcards": "Flashcards",
+     "mastered": "dominadas",
+     "questions": "Preguntas",
+     "correct": "correctas",
+     "topics": "Temas",
+     "organized": "organizados",
+     "retention": "Retención",
+     "daysStorage": "días de almacenamiento",
+     "yourTopics": "Tus Temas",
+     "viewAll": "Ver Todo",
+     "uploadMaterial": "Subir Material",
+     "practice": "Practicar",
+     "uploadStudyMaterial": "Sube tu material de estudio",
+     "aiGenerates": "La IA genera resúmenes, 20 flashcards + 30 preguntas de práctica",
+     "contentStored": "Contenido almacenado por 60 días",
+     "camera": "Cámara",
+     "file": "Archivo",
+     "text": "Texto",
+     "tapToPhoto": "Toca para tomar una foto",
+     "tapToUpload": "Toca para subir archivo",
+     "fileTypes": "PDF, DOC, TXT o Imagen",
+     "pasteNotes": "Pega tus notas, contenido del libro o cualquier material de estudio aquí...",
+     "topicName": "Nombre del Tema",
+     "topicPlaceholder": "ej., Biología Capítulo 5",
+     "generateStudyMaterial": "Generar Material de Estudio",
+     "readyForOCR": "Listo para OCR",
+     "retake": "Retomar",
+     "chooseDifferent": "Elegir archivo diferente",
+     "creatingTopic": "Creando tema...",
+     "generatingAI": "IA extrayendo contenido... (~15-30s)",
+     "savingDocument": "Guardando documento...",
+     "savingFlashcards": "Guardando flashcards...",
+     "savingQuestions": "Guardando preguntas...",
+     "finalizing": "Finalizando...",
+     "processing": "Procesando..."
+   },
+   "topics": {
+     "title": "Temas y Resúmenes",
+     "description": "Lee resúmenes y organiza tu contenido de estudio.",
+     "summaries": "Resúmenes",
+     "gridView": "Vista de Cuadrícula",
+     "addTopic": "Añadir Tema",
+     "editTopic": "Editar Tema",
+     "createTopic": "Crear Tema",
+     "name": "Nombre",
+     "descriptionOptional": "Descripción (opcional)",
+     "priority": "Prioridad",
+     "highPriority": "Alta Prioridad",
+     "mediumPriority": "Prioridad Media",
+     "lowPriority": "Baja Prioridad",
+     "updateTopic": "Actualizar Tema",
+     "noTopics": "No hay temas aún. ¡Sube contenido para crear temas!",
+     "noSummaries": "No Hay Resúmenes Aún",
+     "noSummariesDesc": "Sube material de estudio para generar resúmenes automáticamente.",
+     "noSummaryAvailable": "No hay resumen disponible aún",
+     "progress": "Progreso",
+     "locked": "Temas Bloqueados",
+     "lockedDesc": "Sube tu primer material de estudio para organizar el contenido en temas."
+   },
+   "practice": {
+     "title": "Practicar",
+     "description": "Elige tu modo de práctica y empieza a aprender",
+     "flashcards": "Flashcards",
+     "questions": "Preguntas",
+     "exam": "Examen",
+     "cards": "tarjetas",
+     "allTopics": "Todos los Temas",
+     "startStudying": "Empezar a Estudiar",
+     "cardOf": "Tarjeta {current} de {total}",
+     "percentMastered": "{percent}% dominadas",
+     "clickToFlip": "Haz clic para voltear",
+     "needReview": "Necesita Revisión",
+     "mastered": "Dominada",
+     "backToOverview": "Volver a Vista General",
+     "noFlashcards": "No hay flashcards aún",
+     "noFlashcardsDesc": "Sube materiales de estudio para generar flashcards automáticamente.",
+     "uploadContent": "Subir Contenido",
+     "reviewed": "Revisada",
+     "learning": "Aprendiendo",
+     "questionOf": "Pregunta {current} de {total}",
+     "submitAnswer": "Enviar Respuesta",
+     "nextQuestion": "Siguiente Pregunta",
+     "explanation": "Explicación",
+     "startPractice": "Empezar Práctica",
+     "noQuestions": "No hay preguntas de práctica aún",
+     "noQuestionsDesc": "Sube materiales de estudio para generar preguntas automáticamente.",
+     "attempted": "intentadas",
+     "examMode": "Modo Examen",
+     "examDesc": "Pon a prueba tu conocimiento con una simulación de examen cronometrada",
+     "selectTopics": "Selecciona los temas a incluir",
+     "numberOfQuestions": "Número de preguntas",
+     "timeLimit": "Límite de tiempo (minutos)",
+     "startExam": "Iniciar Examen",
+     "timeRemaining": "Tiempo restante",
+     "finishExam": "Finalizar Examen",
+     "examResults": "Resultados del Examen",
+     "yourScore": "Tu Puntuación",
+     "passed": "¡Aprobado!",
+     "needMorePractice": "Necesitas más práctica",
+     "questionsCorrect": "preguntas correctas",
+     "retakeExam": "Repetir Examen",
+     "reviewAnswers": "Revisar Respuestas",
+     "locked": "Práctica Bloqueada",
+     "lockedDesc": "Sube tu primer material de estudio para empezar a practicar."
+   },
+   "planner": {
+     "title": "Planificador de Estudio",
+     "description": "Planifica y rastrea tus tareas de estudio diarias",
+     "todaysProgress": "Progreso de Hoy",
+     "tasksCompleted": "tareas completadas",
+     "createPlan": "Crear Plan",
+     "deletePlan": "Eliminar Plan",
+     "targetDate": "Fecha Objetivo",
+     "studyDays": "Días de Estudio",
+     "minutesPerDay": "Minutos por día",
+     "generate": "Generar Plan de Estudio",
+     "noTasks": "No hay tareas para hoy",
+     "noTasksDesc": "Crea un plan de estudio para recibir tareas diarias personalizadas",
+     "locked": "Planificador Bloqueado",
+     "lockedDesc": "Sube tu primer material de estudio para acceder al planificador."
+   },
+   "achievements": {
+     "title": "Logros",
+     "description": "Rastrea tus hitos de aprendizaje y gana insignias",
+     "level": "Nivel",
+     "totalXP": "XP Total",
+     "currentStreak": "Racha Actual",
+     "days": "días",
+     "badges": "Insignias",
+     "earnedBadges": "Insignias Ganadas",
+     "allBadges": "Todas las Insignias",
+     "locked": "Logros Bloqueados",
+     "lockedDesc": "Sube tu primer material de estudio para empezar a ganar logros."
+   },
+   "rewards": {
+     "title": "Recompensas",
+     "description": "Canjea tu XP por recompensas exclusivas",
+     "availableRewards": "Recompensas Disponibles",
+     "yourXP": "Tu XP",
+     "redeem": "Canjear",
+     "redeemed": "Canjeado",
+     "locked": "Recompensas Bloqueadas",
+     "lockedDesc": "Sube tu primer material de estudio para acceder a la tienda de recompensas."
+   },
+   "settings": {
+     "title": "Configuración",
+     "description": "Gestiona tu cuenta y preferencias",
+     "profile": "Perfil",
+     "fullName": "Nombre Completo",
+     "email": "Correo Electrónico",
+     "studyGoal": "Objetivo de Estudio",
+     "exam": "Examen",
+     "interview": "Entrevista",
+     "save": "Guardar Cambios",
+     "subscription": "Suscripción",
+     "currentPlan": "Plan Actual",
+     "upgrade": "Mejorar Plan",
+     "danger": "Zona de Peligro",
+     "deleteAccount": "Eliminar Cuenta"
+   },
+   "hero": {
+     "badge": "Aprendizaje con IA",
+     "title1": "Sube. Aprende.",
+     "title2": "Domina Todo.",
+     "title3": "",
+     "description": "Sube tus materiales de estudio y deja que la IA cree flashcards, preguntas de práctica y planes personalizados.",
+     "cta": "Empieza a Aprender Gratis",
+     "stats": {
+       "flashcards": "Generado automáticamente de tus materiales",
+       "users": "Pon a prueba tu conocimiento con quizzes de IA",
+       "success": "Tareas diarias personalizadas"
+     }
+   },
+   "features": {
+     "title1": "Todo lo que Necesitas para",
+     "title2": "Tener Éxito",
+     "description": "Herramientas de IA poderosas diseñadas para hacer tus sesiones de estudio más efectivas y eficientes.",
+     "items": {
+       "snapUpload": {
+         "title": "Fotografía y Sube",
+         "description": "Toma fotos de libros, notas o sube PDFs y documentos. Nuestra IA extrae todo el contenido importante."
+       },
+       "flashcards": {
+         "title": "Flashcards con IA",
+         "description": "Crea flashcards automáticamente a partir de tus materiales. Edítalas y personalízalas según tu estilo de aprendizaje."
+       },
+       "questions": {
+         "title": "Preguntas de Práctica",
+         "description": "Pon a prueba tu conocimiento con preguntas generadas por IA. Obtén retroalimentación instantánea y explicaciones."
+       },
+       "topics": {
+         "title": "Organización por Temas",
+         "description": "Agrupa contenido automáticamente en temas. Establece prioridades para enfocarte en lo más importante."
+       },
+       "progress": {
+         "title": "Seguimiento de Progreso",
+         "description": "Rastrea tu puntuación de preparación, identifica áreas débiles y observa tu mejora con el tiempo."
+       },
+       "plans": {
+         "title": "Planes de Estudio Inteligentes",
+         "description": "Recibe tareas diarias personalizadas basadas en tu fecha objetivo y prioridades de temas."
+       }
+     }
+   },
+   "howItWorks": {
+     "title1": "Cómo",
+     "title2": "Funciona",
+     "description": "Desde la subida hasta el éxito en cuatro simples pasos.",
+     "steps": {
+       "upload": {
+         "title": "Sube Tus Materiales",
+         "description": "Toma fotos, sube documentos o pega texto. Soportamos PDFs, imágenes y más."
+       },
+       "process": {
+         "title": "La IA Procesa el Contenido",
+         "description": "Nuestra IA extrae conceptos clave, crea flashcards y genera preguntas de práctica."
+       },
+       "study": {
+         "title": "Estudia de Forma Inteligente",
+         "description": "Revisa flashcards, realiza tests de práctica y sigue tu plan de estudio personalizado."
+       },
+       "ace": {
+         "title": "Logra Tu Objetivo",
+         "description": "Rastrea tu progreso y entra a tu examen o entrevista con confianza."
+       }
+     }
+   },
+   "certifications": {
+     "title1": "Prepárate para",
+     "title2": "Cualquier Certificación",
+     "description": "Desde certificaciones tech hasta exámenes profesionales, te tenemos cubierto."
+   },
+   "testimonials": {
+     "title1": "Amado por los",
+     "title2": "Estudiantes",
+     "description": "Mira lo que nuestros usuarios dicen sobre su experiencia de aprendizaje."
+   },
+   "footer": {
+     "rights": "Todos los derechos reservados."
+   },
+   "language": {
+     "en": "English",
+     "pt": "Português",
+     "fr": "Français",
+     "es": "Español"
+   },
+   "common": {
+     "loading": "Cargando...",
+     "error": "Error",
+     "success": "Éxito",
+     "cancel": "Cancelar",
+     "confirm": "Confirmar",
+     "delete": "Eliminar",
+     "edit": "Editar",
+     "save": "Guardar",
+     "close": "Cerrar",
+     "back": "Atrás",
+     "next": "Siguiente",
+     "previous": "Anterior",
+     "submit": "Enviar",
+     "search": "Buscar",
+     "filter": "Filtrar",
+     "sort": "Ordenar",
+     "all": "Todo",
+     "none": "Ninguno",
+     "yes": "Sí",
+     "no": "No"
+   }
+ }

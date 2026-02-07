@@ -1,0 +1,316 @@
+ {
+   "nav": {
+     "signIn": "Sign In",
+     "getStarted": "Get Started",
+     "signOut": "Sign Out",
+     "menu": "Menu",
+     "more": "More"
+   },
+   "sidebar": {
+     "dashboard": "Dashboard",
+     "upload": "Upload",
+     "topics": "Topics",
+     "practice": "Practice",
+     "planner": "Planner",
+     "achievements": "Achievements",
+     "rewards": "Rewards",
+     "settings": "Settings",
+     "uploadToUnlock": "Upload to unlock"
+   },
+   "auth": {
+     "welcomeBack": "Welcome back",
+     "signInContinue": "Sign in to continue your study journey",
+     "email": "Email",
+     "password": "Password",
+     "fullName": "Full Name",
+     "createAccount": "Create your account",
+     "startJourney": "Start your journey to exam success",
+     "create": "Create Account",
+     "noAccount": "Don't have an account?",
+     "haveAccount": "Already have an account?",
+     "signUp": "Sign up",
+     "passwordMinLength": "At least 6 characters",
+     "joinLearners": "Join thousands of learners",
+     "uploadMaterials": "Upload your study materials and let AI create flashcards, questions, and personalized study plans.",
+     "readyToAce": "Ready to ace your goals?",
+     "personalizedAssistant": "Your personalized study assistant is waiting. Let's make learning efficient and enjoyable.",
+     "welcomeToast": "Welcome back!",
+     "checkEmail": "Check your email to confirm your account!"
+   },
+   "dashboard": {
+     "welcomeBack": "Welcome back",
+     "examPrep": "Exam preparation",
+     "interviewPrep": "Interview preparation",
+     "daysRemaining": "days remaining",
+     "continueStudy": "Continue your study session",
+     "startNow": "Start now",
+     "readiness": "Readiness",
+     "flashcards": "Flashcards",
+     "mastered": "mastered",
+     "questions": "Questions",
+     "correct": "correct",
+     "topics": "Topics",
+     "organized": "organized",
+     "retention": "Retention",
+     "daysStorage": "days storage",
+     "yourTopics": "Your Topics",
+     "viewAll": "View All",
+     "uploadMaterial": "Upload Material",
+     "practice": "Practice",
+     "uploadStudyMaterial": "Upload your study material",
+     "aiGenerates": "AI generates summaries, 20 flashcards + 30 practice questions",
+     "contentStored": "Content stored for 60 days",
+     "camera": "Camera",
+     "file": "File",
+     "text": "Text",
+     "tapToPhoto": "Tap to take a photo",
+     "tapToUpload": "Tap to upload file",
+     "fileTypes": "PDF, DOC, TXT, or Image",
+     "pasteNotes": "Paste your notes, textbook content, or any study material here...",
+     "topicName": "Topic Name",
+     "topicPlaceholder": "e.g., Biology Chapter 5",
+     "generateStudyMaterial": "Generate Study Material",
+     "readyForOCR": "Ready for OCR",
+     "retake": "Retake",
+     "chooseDifferent": "Choose different file",
+     "creatingTopic": "Creating topic...",
+     "generatingAI": "AI is extracting content... (~15-30s)",
+     "savingDocument": "Saving document...",
+     "savingFlashcards": "Saving flashcards...",
+     "savingQuestions": "Saving questions...",
+     "finalizing": "Finalizing...",
+     "processing": "Processing..."
+   },
+   "topics": {
+     "title": "Topics & Summaries",
+     "description": "Read summaries and organize your study content.",
+     "summaries": "Summaries",
+     "gridView": "Grid View",
+     "addTopic": "Add Topic",
+     "editTopic": "Edit Topic",
+     "createTopic": "Create Topic",
+     "name": "Name",
+     "descriptionOptional": "Description (optional)",
+     "priority": "Priority",
+     "highPriority": "High Priority",
+     "mediumPriority": "Medium Priority",
+     "lowPriority": "Low Priority",
+     "updateTopic": "Update Topic",
+     "noTopics": "No topics yet. Upload content to create topics!",
+     "noSummaries": "No Summaries Yet",
+     "noSummariesDesc": "Upload study material to automatically generate topic summaries. Each upload creates a digestible overview of your content.",
+     "noSummaryAvailable": "No summary available yet",
+     "progress": "Progress",
+     "locked": "Topics Locked",
+     "lockedDesc": "Upload your first study material to organize content into topics."
+   },
+   "practice": {
+     "title": "Practice",
+     "description": "Choose your practice mode and start learning",
+     "flashcards": "Flashcards",
+     "questions": "Questions",
+     "exam": "Exam",
+     "cards": "cards",
+     "allTopics": "All Topics",
+     "startStudying": "Start Studying",
+     "cardOf": "Card {current} of {total}",
+     "percentMastered": "{percent}% mastered",
+     "clickToFlip": "Click to flip",
+     "needReview": "Need Review",
+     "mastered": "Mastered",
+     "backToOverview": "Back to Overview",
+     "noFlashcards": "No flashcards yet",
+     "noFlashcardsDesc": "Upload study materials to generate flashcards automatically.",
+     "uploadContent": "Upload Content",
+     "reviewed": "Reviewed",
+     "learning": "Learning",
+     "questionOf": "Question {current} of {total}",
+     "submitAnswer": "Submit Answer",
+     "nextQuestion": "Next Question",
+     "explanation": "Explanation",
+     "startPractice": "Start Practice",
+     "noQuestions": "No practice questions yet",
+     "noQuestionsDesc": "Upload study materials to generate questions automatically.",
+     "attempted": "attempted",
+     "examMode": "Exam Mode",
+     "examDesc": "Test your knowledge with a timed exam simulation",
+     "selectTopics": "Select topics to include",
+     "numberOfQuestions": "Number of questions",
+     "timeLimit": "Time limit (minutes)",
+     "startExam": "Start Exam",
+     "timeRemaining": "Time remaining",
+     "finishExam": "Finish Exam",
+     "examResults": "Exam Results",
+     "yourScore": "Your Score",
+     "passed": "Passed!",
+     "needMorePractice": "Need more practice",
+     "questionsCorrect": "questions correct",
+     "retakeExam": "Retake Exam",
+     "reviewAnswers": "Review Answers",
+     "locked": "Practice Locked",
+     "lockedDesc": "Upload your first study material to start practicing with flashcards and questions."
+   },
+   "planner": {
+     "title": "Study Planner",
+     "description": "Plan and track your daily study tasks",
+     "todaysProgress": "Today's Progress",
+     "tasksCompleted": "tasks completed",
+     "createPlan": "Create Plan",
+     "deletePlan": "Delete Plan",
+     "targetDate": "Target Date",
+     "studyDays": "Study Days",
+     "minutesPerDay": "Minutes per day",
+     "generate": "Generate Study Plan",
+     "noTasks": "No tasks for today",
+     "noTasksDesc": "Create a study plan to get personalized daily tasks",
+     "locked": "Planner Locked",
+     "lockedDesc": "Upload your first study material to access the study planner."
+   },
+   "achievements": {
+     "title": "Achievements",
+     "description": "Track your learning milestones and earn badges",
+     "level": "Level",
+     "totalXP": "Total XP",
+     "currentStreak": "Current Streak",
+     "days": "days",
+     "badges": "Badges",
+     "earnedBadges": "Earned Badges",
+     "allBadges": "All Badges",
+     "locked": "Achievements Locked",
+     "lockedDesc": "Upload your first study material to start earning achievements."
+   },
+   "rewards": {
+     "title": "Rewards",
+     "description": "Redeem your XP for exclusive rewards",
+     "availableRewards": "Available Rewards",
+     "yourXP": "Your XP",
+     "redeem": "Redeem",
+     "redeemed": "Redeemed",
+     "locked": "Rewards Locked",
+     "lockedDesc": "Upload your first study material to access the rewards shop."
+   },
+   "settings": {
+     "title": "Settings",
+     "description": "Manage your account and preferences",
+     "profile": "Profile",
+     "fullName": "Full Name",
+     "email": "Email",
+     "studyGoal": "Study Goal",
+     "exam": "Exam",
+     "interview": "Interview",
+     "save": "Save Changes",
+     "subscription": "Subscription",
+     "currentPlan": "Current Plan",
+     "upgrade": "Upgrade",
+     "danger": "Danger Zone",
+     "deleteAccount": "Delete Account"
+   },
+   "hero": {
+     "badge": "AI-Powered Learning",
+     "title1": "Upload. Learn.",
+     "title2": "Master Anything.",
+     "title3": "",
+     "description": "Upload your study materials and let AI create flashcards, practice questions, and personalized study plans. Ace your exams and interviews with confidence.",
+     "cta": "Start Learning Free",
+     "stats": {
+       "flashcards": "Auto-generated from your materials",
+       "users": "Test your knowledge with AI quizzes",
+       "success": "Personalized daily learning tasks"
+     }
+   },
+   "features": {
+     "title1": "Everything You Need to",
+     "title2": "Succeed",
+     "description": "Powerful AI tools designed to make your study sessions more effective and efficient.",
+     "items": {
+       "snapUpload": {
+         "title": "Snap & Upload",
+         "description": "Take photos of textbooks, notes, or upload PDFs and documents. Our AI extracts all the important content."
+       },
+       "flashcards": {
+         "title": "AI-Generated Flashcards",
+         "description": "Automatically create flashcards from your materials. Edit and customize them to match your learning style."
+       },
+       "questions": {
+         "title": "Practice Questions",
+         "description": "Test your knowledge with AI-generated questions. Get instant feedback and explanations."
+       },
+       "topics": {
+         "title": "Topic Organization",
+         "description": "Automatically group content into topics. Set priorities to focus on what matters most."
+       },
+       "progress": {
+         "title": "Progress Tracking",
+         "description": "Track your readiness score, identify weak areas, and see your improvement over time."
+       },
+       "plans": {
+         "title": "Smart Study Plans",
+         "description": "Get personalized daily study tasks based on your target date and topic priorities."
+       }
+     }
+   },
+   "howItWorks": {
+     "title1": "How It",
+     "title2": "Works",
+     "description": "From upload to success in four simple steps.",
+     "steps": {
+       "upload": {
+         "title": "Upload Your Materials",
+         "description": "Snap photos, upload documents, or paste text. We support PDFs, images, and more."
+       },
+       "process": {
+         "title": "AI Processes Content",
+         "description": "Our AI extracts key concepts, creates flashcards, and generates practice questions."
+       },
+       "study": {
+         "title": "Study Smart",
+         "description": "Review flashcards, take practice tests, and follow your personalized study plan."
+       },
+       "ace": {
+         "title": "Ace Your Goal",
+         "description": "Track your progress and walk into your exam or interview with confidence."
+       }
+     }
+   },
+   "certifications": {
+     "title1": "Prepare for",
+     "title2": "Any Certification",
+     "description": "From tech certifications to professional exams, we've got you covered."
+   },
+   "testimonials": {
+     "title1": "Loved by",
+     "title2": "Learners",
+     "description": "See what our users have to say about their learning experience."
+   },
+   "footer": {
+     "rights": "All rights reserved."
+   },
+   "language": {
+     "en": "English",
+     "pt": "Português",
+     "fr": "Français",
+     "es": "Español"
+   },
+   "common": {
+     "loading": "Loading...",
+     "error": "Error",
+     "success": "Success",
+     "cancel": "Cancel",
+     "confirm": "Confirm",
+     "delete": "Delete",
+     "edit": "Edit",
+     "save": "Save",
+     "close": "Close",
+     "back": "Back",
+     "next": "Next",
+     "previous": "Previous",
+     "submit": "Submit",
+     "search": "Search",
+     "filter": "Filter",
+     "sort": "Sort",
+     "all": "All",
+     "none": "None",
+     "yes": "Yes",
+     "no": "No"
+   }
+ }
