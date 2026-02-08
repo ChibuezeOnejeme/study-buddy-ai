@@ -14,6 +14,45 @@ export type Database = {
   }
   public: {
     Tables: {
+      badges: {
+        Row: {
+          category: string | null
+          created_at: string
+          description: string | null
+          icon: string | null
+          id: string
+          name: string
+          requirement_type: string | null
+          requirement_value: number | null
+          slug: string
+          xp_reward: number | null
+        }
+        Insert: {
+          category?: string | null
+          created_at?: string
+          description?: string | null
+          icon?: string | null
+          id?: string
+          name: string
+          requirement_type?: string | null
+          requirement_value?: number | null
+          slug: string
+          xp_reward?: number | null
+        }
+        Update: {
+          category?: string | null
+          created_at?: string
+          description?: string | null
+          icon?: string | null
+          id?: string
+          name?: string
+          requirement_type?: string | null
+          requirement_value?: number | null
+          slug?: string
+          xp_reward?: number | null
+        }
+        Relationships: []
+      }
       content_uploads: {
         Row: {
           created_at: string
@@ -96,6 +135,54 @@ export type Database = {
           },
         ]
       }
+      profiles: {
+        Row: {
+          avatar_url: string | null
+          created_at: string
+          first_flashcard_reviewed: boolean | null
+          first_test_completed: boolean | null
+          first_upload_completed: boolean | null
+          full_name: string | null
+          id: string
+          onboarding_completed: boolean | null
+          preferred_study_time: string | null
+          study_goal: string | null
+          target_date: string | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          avatar_url?: string | null
+          created_at?: string
+          first_flashcard_reviewed?: boolean | null
+          first_test_completed?: boolean | null
+          first_upload_completed?: boolean | null
+          full_name?: string | null
+          id?: string
+          onboarding_completed?: boolean | null
+          preferred_study_time?: string | null
+          study_goal?: string | null
+          target_date?: string | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          avatar_url?: string | null
+          created_at?: string
+          first_flashcard_reviewed?: boolean | null
+          first_test_completed?: boolean | null
+          first_upload_completed?: boolean | null
+          full_name?: string | null
+          id?: string
+          onboarding_completed?: boolean | null
+          preferred_study_time?: string | null
+          study_goal?: string | null
+          target_date?: string | null
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       questions: {
         Row: {
           correct_answer: string
@@ -140,10 +227,108 @@ export type Database = {
           },
         ]
       }
+      study_tasks: {
+        Row: {
+          completed: boolean | null
+          completed_at: string | null
+          created_at: string
+          description: string | null
+          id: string
+          scheduled_date: string | null
+          task_type: string
+          title: string
+          topic_id: string | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          completed?: boolean | null
+          completed_at?: string | null
+          created_at?: string
+          description?: string | null
+          id?: string
+          scheduled_date?: string | null
+          task_type: string
+          title: string
+          topic_id?: string | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          completed?: boolean | null
+          completed_at?: string | null
+          created_at?: string
+          description?: string | null
+          id?: string
+          scheduled_date?: string | null
+          task_type?: string
+          title?: string
+          topic_id?: string | null
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "study_tasks_topic_id_fkey"
+            columns: ["topic_id"]
+            isOneToOne: false
+            referencedRelation: "topics"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      topic_mastery: {
+        Row: {
+          correct_answers: number | null
+          created_at: string
+          flashcards_reviewed: number | null
+          id: string
+          mastery_level: number | null
+          questions_answered: number | null
+          topic_id: string
+          updated_at: string
+          user_id: string
+          xp_earned: number | null
+        }
+        Insert: {
+          correct_answers?: number | null
+          created_at?: string
+          flashcards_reviewed?: number | null
+          id?: string
+          mastery_level?: number | null
+          questions_answered?: number | null
+          topic_id: string
+          updated_at?: string
+          user_id: string
+          xp_earned?: number | null
+        }
+        Update: {
+          correct_answers?: number | null
+          created_at?: string
+          flashcards_reviewed?: number | null
+          id?: string
+          mastery_level?: number | null
+          questions_answered?: number | null
+          topic_id?: string
+          updated_at?: string
+          user_id?: string
+          xp_earned?: number | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "topic_mastery_topic_id_fkey"
+            columns: ["topic_id"]
+            isOneToOne: false
+            referencedRelation: "topics"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       topics: {
         Row: {
           created_at: string
           id: string
+          last_regenerated_at: string | null
           name: string
           updated_at: string
           user_id: string
@@ -151,6 +336,7 @@ export type Database = {
         Insert: {
           created_at?: string
           id?: string
+          last_regenerated_at?: string | null
           name: string
           updated_at?: string
           user_id: string
@@ -158,11 +344,112 @@ export type Database = {
         Update: {
           created_at?: string
           id?: string
+          last_regenerated_at?: string | null
           name?: string
           updated_at?: string
           user_id?: string
         }
         Relationships: []
+      }
+      user_badges: {
+        Row: {
+          badge_id: string
+          earned_at: string
+          id: string
+          user_id: string
+        }
+        Insert: {
+          badge_id: string
+          earned_at?: string
+          id?: string
+          user_id: string
+        }
+        Update: {
+          badge_id?: string
+          earned_at?: string
+          id?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "user_badges_badge_id_fkey"
+            columns: ["badge_id"]
+            isOneToOne: false
+            referencedRelation: "badges"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      user_gamification: {
+        Row: {
+          created_at: string
+          current_streak: number | null
+          id: string
+          last_activity_date: string | null
+          level: number | null
+          longest_streak: number | null
+          updated_at: string
+          user_id: string
+          xp_total: number | null
+        }
+        Insert: {
+          created_at?: string
+          current_streak?: number | null
+          id?: string
+          last_activity_date?: string | null
+          level?: number | null
+          longest_streak?: number | null
+          updated_at?: string
+          user_id: string
+          xp_total?: number | null
+        }
+        Update: {
+          created_at?: string
+          current_streak?: number | null
+          id?: string
+          last_activity_date?: string | null
+          level?: number | null
+          longest_streak?: number | null
+          updated_at?: string
+          user_id?: string
+          xp_total?: number | null
+        }
+        Relationships: []
+      }
+      xp_events: {
+        Row: {
+          created_at: string
+          event_type: string
+          id: string
+          topic_id: string | null
+          user_id: string
+          xp_amount: number
+        }
+        Insert: {
+          created_at?: string
+          event_type: string
+          id?: string
+          topic_id?: string | null
+          user_id: string
+          xp_amount: number
+        }
+        Update: {
+          created_at?: string
+          event_type?: string
+          id?: string
+          topic_id?: string | null
+          user_id?: string
+          xp_amount?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "xp_events_topic_id_fkey"
+            columns: ["topic_id"]
+            isOneToOne: false
+            referencedRelation: "topics"
+            referencedColumns: ["id"]
+          },
+        ]
       }
     }
     Views: {
